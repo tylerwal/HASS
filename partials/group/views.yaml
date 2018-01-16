@@ -30,6 +30,7 @@ server_view:
   entities:
     - group.sabnzbd_panel
     - group.plex_panel
+    - group.hass_panel
 alarm_view:
   name: Alarm
   view: yes

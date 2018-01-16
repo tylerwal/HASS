@@ -77,3 +77,8 @@ plex_panel:
   name: Plex
   entities:
     - sensor.Plex_Server
+hass_panel:
+  name: Home Assistant
+  entities:
+    - sensor.ha_installed_version
+    - sensor.ha_uptime
