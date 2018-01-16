@@ -1,0 +1,76 @@
+motion_sensor_panel:
+  name: Motion Sensor
+  entities:
+    - binary_sensor.front_porch_motion_9
+    - binary_sensor.upstairs_motion_7
+motion_sensor_arming_panel:
+  name: Motion Sensor Arming
+  entities:
+    - switch.front_porch_motion_9
+    - switch.upstairs_motion_7
+internal_links_panel:
+  name: Internal Links
+  entities:
+    - weblink.router
+    - weblink.SABNZBD
+    - weblink.SickBeard
+    - weblink.Sensi
+climate_links_panel:
+  name: Climate Links
+  entities:
+    - weblink.Sensi
+kitchen_panel:
+  name: Kitchen
+  entities:
+    - light.kitchen_lights_3
+master_bedroom_panel:
+  name: Master Bedroom
+  entities:
+    - switch.bedroom_heater
+garage_panel:
+  name: Garage
+  entities:
+    - cover.tyler
+    - cover.rachel
+office_panel:
+  name: Office
+  entities:
+    - switch.office_heater
+    - light.hue_white_lamp_1
+    - light.hue_white_lamp_2
+    - light.office_small_lamp
+outdoor_weather_panel:
+  name: Weather
+  view: no
+  entities:
+    - sensor.dark_sky_summary
+    - sensor.dark_sky_temperature
+    - sensor.dark_sky_apparent_temperature
+    - sensor.dark_sky_precip_probability
+    - sensor.dark_sky_wind_speed
+indoor_temp_panel:
+  name: Indoor
+  view: no
+  entities:
+    - sensor.temperaturesensor2_10
+    - sensor.temperaturesensor1_8
+tyler_commutes_panel:
+  name: Commutes
+  entities:
+    - sensor.commute_to_work
+tyler_phone_panel:
+  name: Phone
+  entities:
+    - device_tracker.tyler_tyler
+    - sensor.tyler_phone_battery
+sabnzbd_panel:
+  name: SABnzbd
+  entities:
+    - sensor.sabnzbd_left
+    - sensor.sabnzbd_queue
+    - sensor.sabnzbd_speed
+    - sensor.sabnzbd_status
+plex_panel:
+  name: Plex
+  entities:
+    - sensor.Plex_Server

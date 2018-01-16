@@ -1,0 +1,38 @@
+default_view:
+  name: Home
+  view: yes
+  entities:
+    - group.kitchen_panel
+    - group.office_panel
+    - group.master_bedroom_panel
+    - group.garage_panel
+climate_view:
+  name: Climate
+  view: yes
+  entities:
+    - group.outdoor_weather_panel
+    - group.indoor_temp_panel
+    - group.climate_links_panel
+tyler_view:
+  name: Tyler
+  view: yes
+  entities:
+    - group.tyler_commutes_panel
+    - group.tyler_phone_panel
+links_view:
+  name: Links
+  view: yes
+  entities:
+    - group.internal_links_panel
+server_view:
+  name: Home Server
+  view: yes
+  entities:
+    - group.sabnzbd_panel
+    - group.plex_panel
+alarm_view:
+  name: Alarm
+  view: yes
+  entities:
+    - group.motion_sensor_panel
+    - group.motion_sensor_arming_panel
