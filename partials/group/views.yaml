@@ -31,6 +31,7 @@ server_view:
     - group.sabnzbd_panel
     - group.plex_panel
     - group.hass_panel
+    - group.system_monitor_panel
 alarm_view:
   name: Alarm
   view: yes

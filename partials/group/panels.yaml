@@ -82,3 +82,11 @@ hass_panel:
   entities:
     - sensor.ha_installed_version
     - sensor.ha_uptime
+system_monitor_panel:
+  name: Server Monitor
+  entities:
+    - sensor.cpu_used
+    - sensor.ram_available
+    - sensor.ram_used
+    - sensor.ram_used_2
+    - sensor.disk_used_home
