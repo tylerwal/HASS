@@ -22,7 +22,10 @@ climate_links_panel:
 kitchen_panel:
   name: Kitchen
   entities:
-    - light.kitchen_lights_3
+    - light.kitchen_lights_11
+    - light.hue_white_lamp_1
+    - light.hue_white_lamp_2
+    - light.office_small_lamp
 master_bedroom_panel:
   name: Master Bedroom
   entities:
@@ -36,9 +39,6 @@ office_panel:
   name: Office
   entities:
     - switch.office_heater
-    - light.hue_white_lamp_1
-    - light.hue_white_lamp_2
-    - light.office_small_lamp
 outdoor_weather_panel:
   name: Weather
   view: no
@@ -61,15 +61,18 @@ tyler_commutes_panel:
 tyler_phone_panel:
   name: Phone
   entities:
-    - device_tracker.tyler_tyler
-    - sensor.tyler_phone_battery
+    - device_tracker.pwbwmuqz_g5
+    # - sensor.tyler_phone_battery
 sabnzbd_panel:
   name: SABnzbd
   entities:
-    - sensor.sabnzbd_left
-    - sensor.sabnzbd_queue
-    - sensor.sabnzbd_speed
     - sensor.sabnzbd_status
+    - sensor.sabnzbd_speed
+    - sensor.sabnzbd_queue
+    - sensor.sabnzbd_left
+    - sensor.sabnzbd_disk
+    - sensor.sabnzbd_disk_free
+    - sensor.sabnzdb_queue_count
 plex_panel:
   name: Plex
   entities:
