@@ -1,0 +1,5 @@
+# - platform: hue
+#   host: 192.168.1.110
+#   filename: huebridge.conf
+#   allow_unreachable: true
+#   allow_hue_groups: false

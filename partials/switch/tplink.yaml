@@ -1,0 +1,8 @@
+# was christmas tree, nothing now
+- platform: tplink
+  name: Office Heater
+  host: 192.168.1.108
+# possibly burned up, not safe
+# - platform: tplink
+#   name: Bedroom Heater
+#   host: 192.168.1.109

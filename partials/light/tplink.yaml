@@ -1,0 +1,4 @@
+# I think this is the sink light now
+- platform: tplink
+  name: Office Small Lamp
+  host: 192.168.1.103

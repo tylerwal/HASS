@@ -1,0 +1,5 @@
+- platform: google_travel_time
+  api_key: !secret google_travel_api_key
+  name: Commute to Work
+  origin: !secret google_travel_origin
+  destination: !secret google_travel_destination

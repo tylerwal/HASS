@@ -1,0 +1,5 @@
+- platform: imap
+  server: imap.gmail.com
+  port: 993
+  username: !secret imap_username
+  password: !secret imap_password

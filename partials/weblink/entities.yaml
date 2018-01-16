@@ -1,0 +1,10 @@
+- name: Router
+  url: http://192.168.1.1/
+- name: SABnzbd
+  url: !secret sabnzbd_link
+- name: Sonarr
+  url: !secret sonarr_link
+- name: Radarr
+  url: !secret radarr_link
+- name: Sensi
+  url: https://mythermostat.sensicomfort.com/

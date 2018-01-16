@@ -1,0 +1,29 @@
+# old mqtt when you could change the user name
+tyler_tyler:
+  hide_if_away: false
+  icon:
+  mac:
+  name: tyler
+  picture:
+  track: false
+  vendor:
+
+# new mqtt but default device
+pwbwmuqz_potter:
+  hide_if_away: false
+  icon:
+  mac:
+  name: pwbwmuqz
+  picture:
+  track: false
+  vendor:
+
+pwbwmuqz_g5:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Tyler
+  picture:
+  gravatar: !secret gravatar_username
+  track: true
+  vendor:
