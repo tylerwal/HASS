@@ -1,0 +1,5 @@
+- platform: template
+  sensors:
+    tyler_phone_batter:
+      value_template: '{{ states.device_tracker.pwbwmuqz_g5.attributes.battery }}'
+      unit_of_measurement: '%'

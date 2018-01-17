@@ -78,8 +78,7 @@ tyler_phone_panel:
   name: Phone
   entities:
     - device_tracker.pwbwmuqz_g5
-    # - sensor.pwbwmuqz_g5.attributes.battery
-    #- device_tracker.pwbwmuqz_g5
+    - sensor.tyler_phone_batter
 
 sabnzbd_panel:
   name: SABnzbd
