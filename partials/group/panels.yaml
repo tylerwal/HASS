@@ -14,8 +14,9 @@ internal_links_panel:
   name: Internal Links
   entities:
     - weblink.router
-    - weblink.SABNZBD
-    - weblink.SickBeard
+    - weblink.sabnzbd
+    - weblink.radarr
+    - weblink.sonarr
     - weblink.Sensi
 
 climate_links_panel:
