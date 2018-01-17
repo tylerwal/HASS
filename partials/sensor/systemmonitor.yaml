@@ -3,6 +3,10 @@
   resources:
     - type: disk_use_percent
       arg: /home
+    - type: disk_use_percent
+      arg: /home/tyler/Movies
+    - type: disk_use_percent
+      arg: /home/tyler/TV
     - type: memory_free
     - type: memory_use
     - type: memory_use_percent

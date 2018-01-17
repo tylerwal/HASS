@@ -6,6 +6,7 @@ default_view:
     - group.office_panel
     - group.master_bedroom_panel
     - group.garage_panel
+
 climate_view:
   name: Climate
   view: yes
@@ -13,17 +14,20 @@ climate_view:
     - group.outdoor_weather_panel
     - group.indoor_temp_panel
     - group.climate_links_panel
+
 tyler_view:
   name: Tyler
   view: yes
   entities:
     - group.tyler_commutes_panel
     - group.tyler_phone_panel
+
 links_view:
   name: Links
   view: yes
   entities:
     - group.internal_links_panel
+
 server_view:
   name: Home Server
   view: yes
@@ -32,6 +36,7 @@ server_view:
     - group.plex_panel
     - group.hass_panel
     - group.system_monitor_panel
+
 alarm_view:
   name: Alarm
   view: yes
