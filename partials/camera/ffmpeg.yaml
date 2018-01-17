@@ -1,0 +1,8 @@
+# https://home-assistant.io/components/camera.ffmpeg/
+# https://home-assistant.io/components/ffmpeg/#troubleshooting
+
+# This does not work for me/8910w camera.
+
+# - platform: ffmpeg
+#   #name: Camera
+#   input: !secret foscam_cgi_feed

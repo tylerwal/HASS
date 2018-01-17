@@ -64,6 +64,11 @@ indoor_temp_panel:
     - sensor.temperaturesensor2_10
     - sensor.temperaturesensor1_8
 
+tyler_map:
+  name: Location
+  entities:
+    - camera.tyler
+
 tyler_commutes_panel:
   name: Commutes
   entities:
@@ -73,7 +78,8 @@ tyler_phone_panel:
   name: Phone
   entities:
     - device_tracker.pwbwmuqz_g5
-    # - sensor.tyler_phone_battery
+    # - sensor.pwbwmuqz_g5.attributes.battery
+    #- device_tracker.pwbwmuqz_g5
 
 sabnzbd_panel:
   name: SABnzbd
@@ -85,6 +91,7 @@ sabnzbd_panel:
     - sensor.sabnzbd_disk
     - sensor.sabnzbd_disk_free
     - sensor.sabnzdb_queue_count
+
 plex_panel:
   name: Plex
   entities:
@@ -104,3 +111,11 @@ system_monitor_panel:
     - sensor.ram_used
     - sensor.ram_used_2
     - sensor.disk_used_home
+    - sensor.disk_used_hometylertv
+    - sensor.disk_used_hometylermovies
+    - sensor.disk_used_hometylerbackup
+
+camera_panel:
+  name: Cameras
+  entities:
+    - camera.finns_room

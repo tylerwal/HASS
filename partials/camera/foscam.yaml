@@ -1,0 +1,10 @@
+# https://home-assistant.io/components/camera.foscam/
+
+# This does not work for me/8910w camera.
+
+# - platform: foscam
+#   name: Foscam
+#   ip: http://192.168.1.111/
+#   port: 80
+#   username: !secret foscam_username
+#   password: !secret foscam_password

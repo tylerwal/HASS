@@ -19,6 +19,7 @@ tyler_view:
   name: Tyler
   view: yes
   entities:
+    - group.tyler_map
     - group.tyler_commutes_panel
     - group.tyler_phone_panel
 
@@ -43,3 +44,11 @@ alarm_view:
   entities:
     - group.motion_sensor_panel
     - group.motion_sensor_arming_panel
+    - group.camera_panel
+
+media_view:
+  name: Media
+  view: yes
+  entities:
+    - group.sabnzbd_panel
+    - group.plex_panel

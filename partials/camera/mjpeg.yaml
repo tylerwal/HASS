@@ -1,0 +1,7 @@
+# https://home-assistant.io/components/camera.mjpeg/
+# control: https://home-assistant.io/components/camera.foscam/
+# cookbook: https://home-assistant.io/cookbook/foscam_away_mode_PTZ/
+
+- platform: mjpeg
+  name: "Finn's Room"
+  mjpeg_url: !secret foscam_cgi_feed

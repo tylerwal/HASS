@@ -10,11 +10,14 @@ homeassistant:
   customize: !include customize.yaml
 
 # Enables the frontend
+# https://home-assistant.io/components/frontend/
 frontend:
 
 # Enables configuration UI
+# https://home-assistant.io/components/config/
 config:
-  
+
+# https://home-assistant.io/components/zone/
 zone:
   name: Home
   latitude: !secret house_latitude
@@ -22,57 +25,77 @@ zone:
   icon: mdi:castle
   radius: 500
 
+# https://home-assistant.io/components/http/
 http:
   api_password: !secret http_password
   trusted_networks:
     - 127.0.0.1
     - 192.168.1.0/24
 
+# https://home-assistant.io/components/updater/
 updater:
 
 # Discover some devices automatically
+# https://home-assistant.io/components/discovery/
 #discovery:
 
 # Allows you to issue voice commands from the frontend in enabled browsers
+# https://home-assistant.io/components/conversation/
 conversation:
 
-# Enables support for tracking state changes over time
+# https://home-assistant.io/components/history/
 history:
 
-# View all events in a logbook
+# https://home-assistant.io/components/logbook/
 logbook:
   exclude:
     domains:
       - sun
       - sensor.time
 
+# https://home-assistant.io/components/logger/
+logger:
+  default: error
+  logs:
+    # homeassistant.components.media_player.firetv: fatal
+    # homeassistant.components.media_player.cast: fatal
+    homeassistant.components.cameras: fatal
+
 # Enables a map showing the location of tracked devices
+# https://home-assistant.io/components/map/
 map:
 
 # Track the sun
+# https://home-assistant.io/components/sun/
 sun:
 
 # Text to speech
 tts:
+  # https://home-assistant.io/components/tts.google/
   - platform: google
 
+# https://home-assistant.io/components/vera/
 vera:
   vera_controller_url: http://192.168.1.113:3480/
   exclude: [4,5,6]
 
-# Cloud
+# https://home-assistant.io/components/cloud/
 cloud:
     
+# https://home-assistant.io/components/mqtt/
 mqtt:
     broker: m10.cloudmqtt.com
     port: 20331
     username: !secret mqtt_username
     password: !secret mqtt_password
 
+# https://home-assistant.io/components/hue/
 hue:
   bridges:
     - host: 192.168.1.110
       filename: huebridge.conf
+
+camera: !include_dir_merge_list partials/camera
 
 sensor: !include_dir_merge_list partials/sensor
 switch: !include_dir_merge_list partials/switch
