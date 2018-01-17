@@ -1,3 +1,4 @@
+# https://home-assistant.io/components/sensor.template/
 - platform: template
   sensors:
     tyler_phone_batter:
