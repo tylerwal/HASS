@@ -5,3 +5,5 @@ home-assistant_v2.db
 huebridge.conf
 plex.conf
 /.cloud
+usps_cache.sqlite
+
