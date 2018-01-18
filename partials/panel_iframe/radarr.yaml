@@ -1,0 +1,4 @@
+radarr:
+  title: 'Radarr'
+  icon: mdi:movie
+  url: 'http://192.168.1.121:7878'

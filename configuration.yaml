@@ -60,6 +60,8 @@ logger:
     # homeassistant.components.media_player.firetv: fatal
     # homeassistant.components.media_player.cast: fatal
     homeassistant.components.cameras: fatal
+    homeassistant.components.usps: debug
+    homeassistant.components.sensor.usps: debug
 
 # Enables a map showing the location of tracked devices
 # https://home-assistant.io/components/map/
@@ -95,8 +97,12 @@ hue:
     - host: 192.168.1.110
       filename: huebridge.conf
 
-camera: !include_dir_merge_list partials/camera
+# usps:
+#   username: !secret usps_username
+#   password: !secret usps_username
 
+panel_iframe: !include_dir_merge_named partials/panel_iframe
+camera: !include_dir_merge_list partials/camera
 sensor: !include_dir_merge_list partials/sensor
 switch: !include_dir_merge_list partials/switch
 light: !include_dir_merge_list partials/light

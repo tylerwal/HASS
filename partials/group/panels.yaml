@@ -70,10 +70,19 @@ tyler_map:
   entities:
     - camera.tyler
 
-tyler_commutes_panel:
-  name: Commutes
+tyler_commutes_info_panel:
+  name: Info
   entities:
     - sensor.commute_to_work
+
+tyler_commutes_map_panel:
+  name: Cameras
+  entities:
+    - camera.i81__showalter_road
+    - camera.intersection_of_i70_and_i81
+    - camera.i70__near_65
+    - camera.i70__near_66
+    - camera.i70__south_mountain
 
 tyler_phone_panel:
   name: Phone

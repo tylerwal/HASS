@@ -20,8 +20,14 @@ tyler_view:
   view: yes
   entities:
     - group.tyler_map
-    - group.tyler_commutes_panel
     - group.tyler_phone_panel
+
+commute_view:
+  name: Commute
+  view: yes
+  entities:
+    - group.tyler_commutes_info_panel
+    - group.tyler_commutes_map_panel
 
 links_view:
   name: Links

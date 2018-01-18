@@ -1,0 +1,23 @@
+# https://home-assistant.io/components/camera.ffmpeg/
+# https://home-assistant.io/components/ffmpeg/#troubleshooting
+# @ http://chart.maryland.gov/trafficcameras/index.php#
+
+- platform: ffmpeg
+  name: "I81 - Showalter Road"
+  input: http://170.93.143.138:1935/rtplive/9a00c9410091002b0057fa36c4235c0a/chunklist_w444002410.m3u8
+
+- platform: ffmpeg
+  name: "Intersection of I70 and I81"
+  input: http://170.93.143.139:1935/rtplive/90ffa4d300a100ab0050fa36c4235c0a/chunklist_w1802538183.m3u8
+
+- platform: ffmpeg
+  name: "I70 - Near 65"
+  input: http://170.93.143.139:1935/rtplive/10010d3a00e800dd00451536ea235d0a/chunklist_w952625887.m3u8
+  
+- platform: ffmpeg
+  name: "I70 - Near 66"
+  input: http://170.93.143.138:1935/rtplive/bd00eec8003600fd0057fa36c4235c0a/chunklist_w1242345819.m3u8
+
+- platform: ffmpeg
+  name: "I70 - South Mountain"
+  input: http://170.93.143.138:1935/rtplive/e2ffcef400b100a00052fa36c4235c0a/chunklist_w1243607064.m3u8
