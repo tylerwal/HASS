@@ -1,0 +1,44 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "cover.tyler",
+                "name": null,
+                "platform": "myq",
+                "unique_id": 1881703
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "cover.rachel",
+                "name": null,
+                "platform": "myq",
+                "unique_id": 6811120
+            },
+            {
+                "config_entry_id": "3b67bfb762244f0592d54af5abc4967d",
+                "device_id": "f1c1d30493934d3abc5fd629079d75d3",
+                "disabled_by": null,
+                "entity_id": "light.hue_white_lamp_1",
+                "name": null,
+                "platform": "hue",
+                "unique_id": "00:17:88:01:02:7e:4d:a3-0b"
+            },
+            {
+                "config_entry_id": "3b67bfb762244f0592d54af5abc4967d",
+                "device_id": "537d9e5adcf443008e9df8073f5f2710",
+                "disabled_by": null,
+                "entity_id": "light.hue_white_lamp_2",
+                "name": null,
+                "platform": "hue",
+                "unique_id": "00:17:88:01:02:6b:f8:40-0b"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

@@ -1,0 +1,67 @@
+{
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "3b67bfb762244f0592d54af5abc4967d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:2f:35:61"
+                    ]
+                ],
+                "hub_device_id": null,
+                "id": "55bd54c31ce34118b2d30173e5d1b513",
+                "identifiers": [
+                    [
+                        "hue",
+                        "001788FFFE2F3561"
+                    ]
+                ],
+                "manufacturer": "Signify",
+                "model": "BSB002",
+                "name": "Philips hue",
+                "sw_version": "1810251352"
+            },
+            {
+                "config_entries": [
+                    "3b67bfb762244f0592d54af5abc4967d"
+                ],
+                "connections": [],
+                "hub_device_id": "55bd54c31ce34118b2d30173e5d1b513",
+                "id": "f1c1d30493934d3abc5fd629079d75d3",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:7e:4d:a3-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue white lamp",
+                "name": "Hue white lamp 1",
+                "sw_version": "1.29.0_r21169"
+            },
+            {
+                "config_entries": [
+                    "3b67bfb762244f0592d54af5abc4967d"
+                ],
+                "connections": [],
+                "hub_device_id": "55bd54c31ce34118b2d30173e5d1b513",
+                "id": "537d9e5adcf443008e9df8073f5f2710",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:6b:f8:40-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue white lamp",
+                "name": "Hue white lamp 2",
+                "sw_version": "1.29.0_r21169"
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

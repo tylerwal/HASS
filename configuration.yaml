@@ -82,20 +82,23 @@ vera:
   exclude: [4,5,6]
 
 # https://home-assistant.io/components/cloud/
-cloud:
+#cloud:
     
 # https://home-assistant.io/components/mqtt/
-mqtt:
-    broker: m10.cloudmqtt.com
-    port: 20331
-    username: !secret mqtt_username
-    password: !secret mqtt_password
+#mqtt:
+#    broker: m10.cloudmqtt.com
+#    port: 20331
+#    username: !secret mqtt_username
+#    password: !secret mqtt_password
 
 # https://home-assistant.io/components/hue/
 hue:
   bridges:
     - host: 192.168.1.110
       filename: huebridge.conf
+
+climate:
+  - platform: sensi
 
 # usps:
 #   username: !secret usps_username
@@ -110,8 +113,6 @@ cover: !include_dir_merge_list partials/cover
 weblink: !include_dir_named partials/weblink
 device_tracker: !include_dir_merge_list partials/device_tracker
 group: !include_dir_merge_named partials/group
-
-#group: !include partials/group/views.yaml
 
 automation: !include automations.yaml
 script: !include scripts.yaml

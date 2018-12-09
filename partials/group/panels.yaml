@@ -122,7 +122,9 @@ system_monitor_panel:
     - sensor.disk_used_home
     - sensor.disk_used_hometylertv
     - sensor.disk_used_hometylermovies
-    - sensor.disk_used_hometylerbackup
+    - sensor.disk_used_mediabackupdrive1
+    - sensor.disk_used_mediabackupdrive2
+    - sensor.disk_used_mediabackupdrive3
 
 camera_panel:
   name: Cameras

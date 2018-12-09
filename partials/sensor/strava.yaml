@@ -1,0 +1,7 @@
+# - platform: fitbit
+#   clock_format: 12H
+#   monitored_resources:
+#     - "body/weight"
+
+# - platform: strava
+#   clock_format: 12H

@@ -1,0 +1,21 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "bridge_id": "001788FFFE2F3561",
+                    "host": "192.168.1.110",
+                    "username": "0htX7Ppzm0-KhtY0Jr6A5JpBsuW4UdordvKdPsAI"
+                },
+                "domain": "hue",
+                "entry_id": "3b67bfb762244f0592d54af5abc4967d",
+                "source": "import",
+                "title": "Philips hue",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}
